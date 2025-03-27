@@ -4,8 +4,7 @@ export default function Detalhes() {
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Detalhes</Text>
-            <Text style={styles.subTitle}>No persistence: No text saved</Text>
-            <Text style={styles.subTitle2}>With persistence: No text saved</Text>
+            <Text style={styles.subTitle}>OK!</Text>
         </View>
     );
 };
@@ -27,13 +26,6 @@ const styles = StyleSheet.create({
     subTitle: {
         textAlign: 'center',
         color: 'red',
-        marginBottom: 5,
-        fontSize: 20,
-
-    },
-    subTitle2: {
-        textAlign: 'center',
-        color: 'green',
         marginBottom: 5,
         fontSize: 20,
     },
